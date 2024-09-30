@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f6f8ff;
+    font-family: cursive;
+}
+
+/* start home-section  , sign-section and page-section*/
+.home-section img,
+.sign-section img,
+.page-section img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.home-section h1{
+    font-size: 60px;
+}
+.home-section p{
+    font-size: 25px;
+    color: #666;
+}
+.home-section a,
+.sign-section a{
+    font-size: 20px;
+}
+@media only screen and (max-width:1200px){
+    .home-section .img img,
+    .sign-section .img img,
+    .page-section .img img{
+        width: 97%;
+    }
+}
+/* end home-section , sign-section and page-section*/
+/* start sign-section */
+.sign-section h1{
+    font-size: 50px;
+}
+.sign-section p{
+    font-size: 20px;
+    color: #666;
+}
+.sign-section .icon{
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.sign-section input{
+    width: 100%;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sign-section input:focus{
+    border-color: #3b71ca;
+}
+/* end sign-section */
+/* start page-section */
+.page-section h2{
+    font-size: 40px;
+}
+.page-section p{
+    font-size: 20px;
+    color: #666;
+}
+/* end page-section */
